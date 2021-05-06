@@ -17,6 +17,7 @@ class Lava extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(
         textTheme: TextTheme(
           headline2: TextStyle(
@@ -65,7 +66,6 @@ class Lava extends StatelessWidget {
         primaryColor: Colors.black,
         fontFamily: 'Montserrat',
       ),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
